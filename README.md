@@ -1,7 +1,7 @@
 # Hashicorp Examples
 
 ## Terraform
-terraform related nonsense
+Examples of using Terraform
 
 Study Material
 
