@@ -17,6 +17,10 @@ az vm image list-offers --location uksouth --publisher MicrosoftWindowsServer
 #filter to just one image demoign queries
 az vm image list-offers --location uksouth --publisher MicrosoftWindowsServer --query "[? contains(name, 'WindowsServer') && ! contains(name, 'WindowsServerSemiAnnual')]"
 
+#build the image 
+packer build .\example.json
+
+#testing image 
 $Username = "MyUser"
 $Password = 'Password123!' | ConvertTo-SecureString -Force -AsPlainText
 $Credential = New-Object -TypeName PSCredential -ArgumentList ($Username, $Password)

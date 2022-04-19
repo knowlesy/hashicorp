@@ -25,6 +25,10 @@
   "provisioners": [
     {
       "type": "powershell",
+      "script": "script.ps1"
+    },
+    {
+      "type": "powershell",
       "inline": [
         "while ((Get-Service RdAgent).Status -ne 'Running') { Start-Sleep -s 5 }",
         "while ((Get-Service WindowsAzureGuestAgent).Status -ne 'Running') { Start-Sleep -s 5 }",
