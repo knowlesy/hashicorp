@@ -4,4 +4,7 @@
 ## Packer
 Examples of using Packer 
 
-This example demo's how to deploy a simple image in Azure, note this these examples are using azure cli for demonstration purposes only whereas they should be using a Service Principle Name
+This example demo's how to deploy a simple image in Azure.
+
+### Note 
+This these examples are using azure cli for demonstration purposes only whereas they should be using a Service Principle Name
