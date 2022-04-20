@@ -1,0 +1,1 @@
+As per Packer documentation https://www.packer.io/plugins/builders/hyperv/iso under "Creating an ISO from a Directory" go to https://opensourcepack.blogspot.com/p/cdrtools.html 

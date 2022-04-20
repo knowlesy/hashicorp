@@ -1,0 +1,4 @@
+You can submit a downloadable ISO URL however in this example I simply had a local ISO within the folder of the template 
+
+REF
+https://stackoverflow.com/questions/41862494/how-to-pass-packer-io-iso-url-as-a-command-line-parameter
