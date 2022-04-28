@@ -9,7 +9,7 @@ This folder contains the pre-requisites for creating an image for Hyper-V with p
 ## Helpful Links 
 [Passing local ISO to Packer](https://stackoverflow.com/questions/41862494/how-to-pass-packer-io-iso-url-as-a-command-line-parameter)
 
-[mkisods](https://opensourcepack.blogspot.com/p/cdrtools.html)
+[mkisofs](https://opensourcepack.blogspot.com/p/cdrtools.html)
 
 [4sysops guide to building an answer file](https://4sysops.com/archives/automate-windows-server-setup-using-an-answer-file/)
 
