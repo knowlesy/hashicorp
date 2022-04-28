@@ -4,6 +4,8 @@
 ## Packer
 Examples of using Packer 
 
-This example demo's how to use packer with Hyper V from an ISO
+This example demo's how to use packer with Hyper V from a Windows ISO thats stored locally
 
-TBC
+[Template used from here "Github marcinbojko"](https://github.com/marcinbojko/hv-packer#hyper-v-generation-2-windows-server-20h2-standard-image)
+
+### NOTE:This is just an initial build this isn't sysprep'ed
