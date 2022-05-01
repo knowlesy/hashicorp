@@ -4,7 +4,7 @@
 ## Packer
 Examples of using Packer 
 
-This example demo's how to use packer with Hyper V from a Windows ISO thats stored locally
+This example demo's how to use packer with Hyper V from a Windows ISO thats stored locally. This will deployan OS, downloadsysinternals, create a few directories, perform windows updates, cleanup the OS and then Sysprep it.
 
 [Copying files into Image](https://www.packer.io/docs/provisioners/file)
 
@@ -17,4 +17,3 @@ build the image
 
 
 Scripts / Autounattend, unattend, bg file have all been added or modified since the initial prepreq on this 
-### NOTE:This is just an initial build this isn't sysprep'ed
