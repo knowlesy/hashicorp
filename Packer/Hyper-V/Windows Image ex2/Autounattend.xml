@@ -82,7 +82,7 @@
             </ImageInstall>
             <UserData>
                 <ProductKey>
-                   <Key>111-222-3333-444-5555/Key> 
+                   <Key>111-222-3333-444-5555</Key> 
                     <WillShowUI>OnError</WillShowUI>
                 </ProductKey>
                 <AcceptEula>true</AcceptEula>
