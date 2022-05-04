@@ -7,6 +7,7 @@ Examples of using Packer
 This is examples of using variables internal to the config file, passing via the command line and via a variable file 
 
 [Youtube Guide](https://youtu.be/XuyKg85lMYM)
+
 [Packer Documentation on Variables](https://www.packer.io/docs/templates/hcl_templates/blocks/variable)
 
 build the image 
