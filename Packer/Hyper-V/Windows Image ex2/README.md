@@ -12,7 +12,9 @@ This example demo's how to use packer with Hyper V from a Windows ISO thats stor
 
 build the image 
 
-    packer build .\example.hcl
+    packer init .\example.pkr.hcl
+
+    packer build .\example.pkr.hcl
 
 
 
