@@ -2,7 +2,9 @@
 
 
 ## Terraform
-Examples of using Terraform 
+Examples of using Terraform in azure 
+
+see tf.ps1 for how to login commands etc
 
 
 ### Note 
