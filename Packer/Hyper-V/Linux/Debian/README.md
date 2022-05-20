@@ -25,7 +25,7 @@ ISO tried from the Debian repository
 
 [Stuck at boot screen](https://stackoverflow.com/questions/27201419/automate-ubuntu-install-via-packer-stuck-at-welcome-screen)
 
-[Hyper V and PAcker Documentation](https://www.packer.io/plugins/builders/hyperv/iso)
+[Hyper V and Packer Documentation](https://www.packer.io/plugins/builders/hyperv/iso)
 
 [Packer Debian Documentation](https://www.packer.io/guides/automatic-operating-system-installs/preseed_ubuntu)
 
