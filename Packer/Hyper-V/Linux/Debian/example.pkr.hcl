@@ -10,21 +10,18 @@ source "hyperv-iso" "vm" {
   ssh_username          = "vagrant"
   enable_secure_boot    = "false"
   disk_block_size       = "1"
-  disk_size             = "30000"
+  disk_size             = "60000"
   cpus                  = "2"
   memory                = "4096"
   enable_dynamic_memory = "true"
   generation            = "1"
   guest_additions_mode  = "disable"
-  switch_name           = "Ext"
+  switch_name           = "Default Switch"
   temp_path             = "."
   boot_wait             = "50s"
   http_directory= "http"
   boot_command = [
-    "<esc><wait>",
-    "auto <wait>",
-    "auto url=http://{{ .HTTPIP }}:{{ .HTTPPort }}/preseed.cfg <wait>",
-    "<enter><wait>"
+"<esc><wait>auto preseed/url=http://{{ .HTTPIP }}:{{ .HTTPPort }}/preseed.cfg <enter>"
 ]    
   shutdown_command      = "echo 'vagrant' | sudo -S shutdown -P now"
   shutdown_timeout      = "30m"

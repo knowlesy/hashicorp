@@ -4,13 +4,11 @@
 ## Packer
 Examples of using Packer 
 
-This example demo's how to use packer with Hyper V  for the Debian OS, sadly even with the latest at the time 1.8 and running on Windows 11 with hyper v role installed I couldn't get this to work for a gen1/2 vm and raised a request within the packer community I will update If I ever get this to work 
+This example demo's how to use packer with Hyper V  for the Debian OS
 
 ISO tried from the Debian repository 
 
-    #debian-11.3.0-amd64-netinst.iso
-
-    #debian-10.10.0-amd64-DVD-1.iso
+     #debian-10.10.0-amd64-DVD-1.iso
 
 
 ### Guides / Documentation I found helpful
