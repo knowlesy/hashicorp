@@ -4,7 +4,7 @@
 ## Packer
 Examples of using Packer 
 
-This example demo's how to use packer with Vsphere TBC
+This example demo's how to use packer with Vsphere 
 
 
 
